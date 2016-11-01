@@ -1,3 +1,19 @@
+# =========================
+# Application
+# =========================
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.idea
+resources/fonts/*
+index.withNav.html
+waivers.rendered.html
+
+# Windows
+# =========================
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
