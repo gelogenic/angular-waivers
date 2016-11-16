@@ -4,6 +4,7 @@
 angular.
   module('waiverList', []).
 	component('waiverList', {
+		// take a look at the $templateRequest and $templateCache services for more info on how Angular manages external templates. 
 		templateUrl: '/apps/waiver-list/waiver-list.template.html',
 		controller: function WaiverListCtrl() {
 			this.waivers = [
