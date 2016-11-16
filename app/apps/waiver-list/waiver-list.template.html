@@ -1,9 +1,29 @@
+<div id="mainContent" class="" role="main">
+    <h1>!-- TO DO: SHOULD THIS BE HARDCODED IN THIS TEMPLATE OR A VARIABLE GRABBING VALUE FROM JSON? --Demonstrations &amp Waivers</h1>
+    <p>!-- TO DO: SHOULD THIS BE HARD-CODED IN THIS TEMPLATE OR A VARIABLE GRABBING VALUE FROM JSON? -- Waivers are vehicles states can use to test new or existing ways to deliver and pay for health care services in Medicaid and the Children’s Health Insurance Program (CHIP). Learn more about waiver and demonstration authorities. In September 2014, the Centers for Medicare &#38; Medicaid Services initiated a national, cross-state evaluation of four types of Medicaid section 1115 demonstrations. See the evaluation design.</p>
 
+	<div id="facet">
+<!-- TO DO: remove inline styles -->
+		<div style="display:inline-block; zoom:1; *display:inline; letter-spacing:normal; word-spacing:normal; vertical-align:top; width:25% !important;">
+			<h2>Refine Your Search:</h2>
+			<div class="facet-container"><!-- start: Refine Your Search -->
+				<h3><label for="keywords">Keywords: </label></h3>
+				<input data-ng-model="$ctrl.keywords" id="keywords" type="search">
+				<span class="small"><br/>(i.e. disabled, childless adults, etc.)</span>
+
+				</div>
+			<input type="button" class="resetButton" value="Reset Form"/>
+		</div><!-- end: Refine Your Search -->
+				
+<!-- TO DO: remove inline styles -->
+		<div class="results-box" id="results-box" style="display:inline-block; zoom:1; *display:inline; letter-spacing:normal; word-spacing:normal; vertical-align:top;">
+			<div><!-- start: Sort by -->
+			</div><!-- end: Sort by -->
 			<div><!-- start: list content -->
-				<p><b>{{$ctrl.waivers.length}} waivers,</b> ordered according to <samp>{{$ctrl.sortProp}}</samp></p>
+				<p><b>{{$ctrl.waivers.length}} waivers,</b> ordered according to <samp>{{$ctrl.sortProp}}</samp><span data-ng-show="keywords">, filtered by <samp>{{$ctrl.keywords}}</samp></span></p>
 
 				<ul id="waivers"><!-- TO DO: track by uid? -->
-					<li class="dl-results" data-ng-repeat="waiver in $ctrl.waivers | filter:keywords | orderBy:$ctrl.sortProp" data-ng-init="showMore=false">
+					<li class="dl-results" data-ng-repeat="waiver in $ctrl.waivers | filter:$ctrl.keywords | orderBy:$ctrl.sortProp" data-ng-init="showMore=false">
 						<table class="dl-results">
 							<tbody>
 								<tr>
@@ -155,3 +175,7 @@
 				</ul>
 
 			</div><!-- end: list content -->
+		</div><!-- end: results-box -->
+
+	</div><!-- end faceted -->
+</div><!-- #mainContent end -->
