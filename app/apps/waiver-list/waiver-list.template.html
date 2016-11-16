@@ -1,0 +1,157 @@
+
+			<div><!-- start: list content -->
+				<p><b>{{$ctrl.waivers.length}} waivers,</b> ordered according to <samp>{{$ctrl.sortProp}}</samp></p>
+
+				<ul id="waivers"><!-- TO DO: track by uid? -->
+					<li class="dl-results" data-ng-repeat="waiver in $ctrl.waivers | filter:keywords | orderBy:$ctrl.sortProp" data-ng-init="showMore=false">
+						<table class="dl-results">
+							<tbody>
+								<tr>
+									<td><strong>Waiver Authority:</strong>{{waiver.waiver_authority}}</td>
+									<td>&nbsp;</td>
+									<td><strong>Status:</strong> <span class="status">{{waiver.status}}</span></td>
+								</tr>
+								<tr>
+									<td><span class="program-label"><p>Program Name and Number:</p></span></td>
+									<td><span class="program-name"><p>{{waiver.program_name_and_number}}</p></span></td>
+									<td>&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="show-more-less" data-ng-show="showMore">
+							<span><b>State</b> {{waiver.state | uppercase}}</span>
+							<button class="showless-btn" type="button" data-ng-show="showMore===true" data-ng-click="showMore=!showMore">Show Less</button>
+							<!-- p><b>Summary:</b> {{ waiver . summary }}</p -->
+							<table width="100%">
+								<tbody>
+									<tr>
+										<th colspan="2">
+											<div><img src="/resources/images/dynamic-lists/calendar-icon.png" alt="calendar icon" width="26" height="21"/>Waiver Dates</div>
+										</th>
+									</tr>
+									<tr>
+										<td width="15%"><strong>Approval:</strong></td>
+										<td width="85%">{{waiver.approval_date | date: 'MM/dd/yyyy'}}</td>
+									</tr>
+									<tr>
+										<td><strong>Effective:</strong></td>
+										<td>{{waiver.effective_date | date: "MM/dd/yyyy"}}</td>
+									</tr>
+									<tr>
+										<td><strong>Expiration:</strong></td>
+										<td>{{waiver.expiration_date | date: "MM/dd/yyyy"}}</td>
+									</tr>
+								</tbody>
+							</table>
+							<br>
+							<table width="100%"><!-- start: Supporting Docs -->
+								<tbody>
+									<tr>
+										<th>
+											<div><img src="/resources/images/dynamic-lists/filebox-icon.png" alt="file box icon" width="25" height="23"/>Supporting Document(s)</div>
+										</th>
+									</tr>
+									<tr data-ng-if="waiver.pending_documents"><!-- start: Pending Docs -->
+										<td>
+											<h3>Pending Application(s) &amp; Related Document(s)</h3>
+											<div class="documents">
+												<table>
+												<thead>
+												<tr>
+												<th width="110">Document Date</th>
+												<th width="245"><span class="doc-title">Title</span></th>
+												<th width="159">&nbsp;</th>
+												</tr>
+												</thead>
+												</table>
+												<div class="scroll">
+												<table>
+												<tbody>
+												<tr data-ng-repeat="penddoc in waiver.pending_documents">
+												<td width="110">{{penddoc.pending_document_date}}</td>
+												<td width="245">
+												<span class="doc-title">
+												<a href="{{penddoc.pending_document_url}}" target="_blank">{{penddoc.pending_title}}</a>
+												</span>
+												</td>
+												<td width="159">
+												<span data-ng-if="penddoc.pending_comments_url"><a class="comment-btn" href="{{penddoc.pending_comments_url}}" target="_blank">View/Submit Comments</a></span>
+												</td>
+												</tr>
+												</tbody>
+												</table>
+												</div><!-- end: Pending class=scroll -->
+											</div><!-- end: Pending class=documents -->
+										</td>
+									</tr><!-- end: Pending Docs -->
+									<tr data-ng-if="waiver.current_documents"><!-- start: Approved Docs -->
+										<td>
+											<h3>Approved Application(s) &amp; Related Document(s)</h3>
+											<div class="documents">
+												<table>
+												<thead>
+												<tr>
+												<th width="110">Document Date</th>
+												<th><span class="doc-title">Title</span></th>
+												</tr>
+												</thead>
+												</table>
+												<div class="scroll">
+												<table>
+												<tbody>
+												<tr data-ng-repeat="currdoc in waiver.current_documents">
+												<td width="110">{{currdoc.current_document_date}}</td>
+												<td colspan="2">
+												<span class="doc-title">
+												<a href="{{currdoc.current_document_url}}" target="_blank">{{currdoc.current_title}}</a>
+												</span>
+												</td>
+												</tr>
+												</tbody>
+												</table>
+												</div><!-- end: Approved class=scroll -->
+											</div><!-- end: Approved class=documents -->
+										</td>
+									</tr><!-- end: Approved Docs -->
+									<tr data-ng-if="waiver.administrative_documents"><!-- start: Administrative Record -->
+										<td>
+											<h3>Administrative Record</h3>
+											<div class="documents">
+												<table>
+												<thead>
+												<tr>
+												<th width="110">Document Date</th>
+												<th colspan="2"><span class="doc-title">Title</span></th>
+												</tr>
+												</thead>
+												</table>
+												<div class="scroll">
+												<table>
+												<tbody>
+												<tr data-ng-repeat="admindoc in waiver.administrative_documents">
+												<td width="110">{{admindoc.administrative_document_date}}</td>
+												<td colspan="2">
+												<span class="doc-title">
+												<a href="{{admindoc.administrative_document_url}}" target="_blank">{{admindoc.administrative_title}}</a>
+												</span>
+												</td>
+												</tr>
+												</tbody>
+												</table>
+											</div><!-- end: Administrative class=scroll -->
+											</div><!-- end: Administrative class=documents -->
+										</td>
+									</tr><!-- end: Administrative Record -->
+								</tbody>
+							</table><!-- end: Supporting Docs -->
+						</div><!-- end: class=show-more-less -->
+<!-- TO DO: remove inline styles -->
+						<div class="show-more-less" style="height: 46px;" data-ng-show="showMore===false">
+<!-- TO DO: remove inline styles -->
+							<p style="height: 38px; margin-top: 8px; padding-top: 8px; display: inline-block;"><b>State</b> {{waiver.state | uppercase}}</p>
+							<button class="showmore-btn" type="button" data-ng-click="showMore=!showMore">Show More</button>
+						</div>
+					</li>
+				</ul>
+
+			</div><!-- end: list content -->
