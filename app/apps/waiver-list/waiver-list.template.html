@@ -11,16 +11,24 @@
 				<input data-ng-model="$ctrl.keywords" id="keywords" type="search">
 				<span class="small"><br/>(i.e. disabled, childless adults, etc.)</span>
 
-				</div>
+			</div>
 			<input type="button" class="resetButton" value="Reset Form"/>
 		</div><!-- end: Refine Your Search -->
 				
 <!-- TO DO: remove inline styles -->
 		<div class="results-box" id="results-box" style="display:inline-block; zoom:1; *display:inline; letter-spacing:normal; word-spacing:normal; vertical-align:top;">
-			<div><!-- start: Sort by -->
+			<div class="pull-right"><!-- start: Sort by -->
+				<form>
+					<label for="sortProp">Sort by: </label>
+					<select data-ng-model="$ctrl.sortProp" id="sortProp" name="sortProp">
+						<option value="state_full_name">State</option>
+						<option value="status_order">Status</option>
+						<option value="waiver_authority">Waiver Authority</option>
+					</select>
+				</form>
 			</div><!-- end: Sort by -->
 			<div><!-- start: list content -->
-				<p><b>{{$ctrl.waivers.length}} waivers,</b> ordered according to <samp>{{$ctrl.sortProp}}</samp><span data-ng-show="keywords">, filtered by <samp>{{$ctrl.keywords}}</samp></span></p>
+				<p><b>{{$ctrl.waivers.length}} waivers,</b> ordered according to <samp>{{$ctrl.sortProp}}</samp><span data-ng-show="$ctrl.keywords">, filtered by <samp>{{$ctrl.keywords}}</samp></span></p>
 
 				<ul id="waivers"><!-- TO DO: track by uid? -->
 					<li class="dl-results" data-ng-repeat="waiver in $ctrl.waivers | filter:$ctrl.keywords | orderBy:$ctrl.sortProp" data-ng-init="showMore=false">

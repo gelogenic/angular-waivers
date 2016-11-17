@@ -8,14 +8,19 @@ beforeEach(module('waiverList'));
 
 // Test the controller
 describe('WaiverListCtrl', function() {
+	var ctrl;
 
-it('should create a `waivers` model with 4 waiver records', inject(function($componentController) {
+    beforeEach(inject(function($componentController) {
+      ctrl = $componentController('waiverList');
+	}));
 
-var ctrl = $componentController('waiverList');
+	it('should create a `waivers` model with 4 waiver records', function() {
+		expect(ctrl.waivers.length).toBe(4);
+	});
 
-expect(ctrl.waivers.length).toBe(4);
-expect(ctrl.sortProp).toBe('status_order');
-}));
+	it('should set a default value for the `sortProp` model', function() {
+		expect(ctrl.sortProp).toBe('status_order');
+	});
 
 });
 
