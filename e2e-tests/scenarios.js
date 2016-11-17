@@ -15,14 +15,14 @@ describe('waiverApp Application', function() {
       var waiverList = element.all(by.repeater('waiver in $ctrl.waivers'));
       var query = element(by.model('$ctrl.keywords'));
 
-      expect(waiverList.count()).toBe(4);
+      expect(waiverList.count()).toBe(509);
 
       query.sendKeys('healthy');
-      expect(waiverList.count()).toBe(1);
+      expect(waiverList.count()).toBe(14);
 
       query.clear();
       query.sendKeys('alabama');
-      expect(waiverList.count()).toBe(2);
+      expect(waiverList.count()).toBe(11);
     });
 
     it('should be possible to control waiver list order via the drop-down menu', function() {
