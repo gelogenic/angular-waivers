@@ -25,7 +25,7 @@ describe('waiverApp Application', function() {
       expect(waiverList.count()).toBe(11);
     });
 
-    it('should be possible to control waiver list order via the drop-down menu', function() {
+/*     it('should be possible to control waiver list order via the drop-down menu', function() {
       //var queryField = element(by.model('$ctrl.keywords'));
       var orderSelect = element(by.model('$ctrl.sortProp'));
       var nameOption = orderSelect.element(by.css('option[value="state_full_name"]'));
@@ -56,7 +56,7 @@ describe('waiverApp Application', function() {
         '','State CT',
         '','State GA'
       ]);
-});
+	}); */
 
   });
 
