@@ -9,8 +9,14 @@ angular.
 		controller: function WaiverListCtrl($http) {
 			var self = this;
 			self.sortProp = 'status_order';
+			self.clearFilters = function clearFilters() {
+				self.keywords = '';
+				self.sortProp = 'status_order';
+			};
+			
 			$http.get('/apps/data/waivers_faceted.json').then(function(response) {
 				self.waivers = response.data;
 			});
+
 		}
 });
