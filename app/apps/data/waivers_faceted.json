@@ -1,4 +1,6 @@
-[
+{
+"entries": [
+	    	
   {
 "uid": "8122",
 "state": "AL",
@@ -74,6 +76,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8131",
 "state": "AL",
@@ -103,6 +106,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8133",
 "state": "AL",
@@ -132,6 +136,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8134",
 "state": "AL",
@@ -161,6 +166,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8135",
 "state": "AL",
@@ -190,6 +196,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8136",
 "state": "AL",
@@ -219,6 +226,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8714",
 "state": "AL",
@@ -248,6 +256,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8715",
 "state": "AL",
@@ -277,6 +286,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24294",
 "state": "AL",
@@ -301,6 +311,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24295",
 "state": "AL",
@@ -325,6 +336,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24311",
 "state": "AL",
@@ -370,6 +382,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8139",
 "state": "AK",
@@ -399,6 +412,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8140",
 "state": "AK",
@@ -428,6 +442,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8141",
 "state": "AK",
@@ -457,6 +472,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "12085",
 "state": "AK",
@@ -486,6 +502,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8142",
 "state": "AZ",
@@ -734,6 +751,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8143",
 "state": "AR",
@@ -769,6 +787,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8144",
 "state": "AR",
@@ -864,6 +883,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8145",
 "state": "AR",
@@ -934,6 +954,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8146",
 "state": "AR",
@@ -963,6 +984,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8148",
 "state": "AR",
@@ -992,6 +1014,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8149",
 "state": "AR",
@@ -1021,6 +1044,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8150",
 "state": "AR",
@@ -1050,6 +1074,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8153",
 "state": "AR",
@@ -1079,6 +1104,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "15033",
 "state": "AR",
@@ -1256,6 +1282,7 @@
 ]
 
   },
+	        	
   {
 "uid": "15980",
 "state": "AR",
@@ -1285,6 +1312,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24296",
 "state": "AR",
@@ -1309,6 +1337,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8157",
 "state": "CA",
@@ -2042,6 +2071,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8162",
 "state": "CA",
@@ -2071,6 +2101,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8165",
 "state": "CA",
@@ -2100,6 +2131,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8168",
 "state": "CA",
@@ -2129,6 +2161,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8169",
 "state": "CA",
@@ -2158,6 +2191,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8170",
 "state": "CA",
@@ -2187,6 +2221,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8174",
 "state": "CA",
@@ -2216,6 +2251,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8177",
 "state": "CA",
@@ -2245,6 +2281,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "15989",
 "state": "CA",
@@ -2274,6 +2311,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24297",
 "state": "CA",
@@ -2298,6 +2336,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8179",
 "state": "CO",
@@ -2348,6 +2387,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8254",
 "state": "CO",
@@ -2377,6 +2417,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8257",
 "state": "CO",
@@ -2406,6 +2447,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8259",
 "state": "CO",
@@ -2435,6 +2477,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8262",
 "state": "CO",
@@ -2464,6 +2507,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8265",
 "state": "CO",
@@ -2493,6 +2537,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8268",
 "state": "CO",
@@ -2522,6 +2567,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8271",
 "state": "CO",
@@ -2551,6 +2597,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8273",
 "state": "CO",
@@ -2580,6 +2627,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8279",
 "state": "CO",
@@ -2609,6 +2657,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8285",
 "state": "CO",
@@ -2638,6 +2687,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8289",
 "state": "CO",
@@ -2667,6 +2717,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8292",
 "state": "CO",
@@ -2747,6 +2798,7 @@
 ]
 
   },
+	        	
   {
 "uid": "15984",
 "state": "CO",
@@ -2776,6 +2828,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24298",
 "state": "CO",
@@ -2800,6 +2853,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8674",
 "state": "CT",
@@ -2829,6 +2883,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8677",
 "state": "CT",
@@ -2868,6 +2923,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8680",
 "state": "CT",
@@ -2897,6 +2953,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8681",
 "state": "CT",
@@ -2926,6 +2983,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8682",
 "state": "CT",
@@ -2955,6 +3013,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8683",
 "state": "CT",
@@ -2984,6 +3043,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8684",
 "state": "CT",
@@ -3013,6 +3073,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8698",
 "state": "CT",
@@ -3042,6 +3103,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8716",
 "state": "CT",
@@ -3071,6 +3133,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "19695",
 "state": "CT",
@@ -3100,6 +3163,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "20581",
 "state": "CT",
@@ -3129,6 +3193,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "29936",
 "state": "CT",
@@ -3158,6 +3223,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "33190",
 "state": "CT",
@@ -3182,6 +3248,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8408",
 "state": "DE",
@@ -3317,6 +3384,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8409",
 "state": "DE",
@@ -3346,6 +3414,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8410",
 "state": "DE",
@@ -3375,6 +3444,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8412",
 "state": "DE",
@@ -3404,6 +3474,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "30488",
 "state": "DE",
@@ -3428,6 +3499,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8432",
 "state": "DC",
@@ -3457,6 +3529,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8439",
 "state": "DC",
@@ -3486,6 +3559,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8701",
 "state": "DC",
@@ -3521,6 +3595,7 @@
 ]
 
   },
+	        	
   {
 "uid": "36235",
 "state": "DC",
@@ -3545,6 +3620,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8442",
 "state": "FL",
@@ -3630,6 +3706,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8447",
 "state": "FL",
@@ -3777,6 +3854,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8450",
 "state": "FL",
@@ -4042,6 +4120,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8454",
 "state": "FL",
@@ -4086,6 +4165,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8491",
 "state": "FL",
@@ -4115,6 +4195,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8494",
 "state": "FL",
@@ -4144,6 +4225,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8497",
 "state": "FL",
@@ -4173,6 +4255,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8499",
 "state": "FL",
@@ -4202,6 +4285,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8501",
 "state": "FL",
@@ -4231,6 +4315,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8504",
 "state": "FL",
@@ -4260,6 +4345,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8507",
 "state": "FL",
@@ -4289,6 +4375,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8509",
 "state": "FL",
@@ -4318,6 +4405,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8512",
 "state": "FL",
@@ -4347,6 +4435,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8514",
 "state": "FL",
@@ -4376,6 +4465,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8516",
 "state": "FL",
@@ -4405,6 +4495,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8717",
 "state": "FL",
@@ -4434,6 +4525,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8718",
 "state": "FL",
@@ -4463,6 +4555,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8719",
 "state": "FL",
@@ -4492,6 +4585,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "12086",
 "state": "FL",
@@ -4521,6 +4615,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24301",
 "state": "FL",
@@ -4545,6 +4640,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "30489",
 "state": "FL",
@@ -4569,6 +4665,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8518",
 "state": "GA",
@@ -4641,6 +4738,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8521",
 "state": "GA",
@@ -4670,6 +4768,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8529",
 "state": "GA",
@@ -4699,6 +4798,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8530",
 "state": "GA",
@@ -4728,6 +4828,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8531",
 "state": "GA",
@@ -4757,6 +4858,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8532",
 "state": "GA",
@@ -4786,6 +4888,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8723",
 "state": "GA",
@@ -4815,6 +4918,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8536",
 "state": "HI",
@@ -4844,6 +4948,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8541",
 "state": "HI",
@@ -5054,6 +5159,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8542",
 "state": "ID",
@@ -5089,6 +5195,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8543",
 "state": "ID",
@@ -5120,6 +5227,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8544",
 "state": "ID",
@@ -5149,6 +5257,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8545",
 "state": "ID",
@@ -5178,6 +5287,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8546",
 "state": "ID",
@@ -5207,6 +5317,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8547",
 "state": "ID",
@@ -5236,6 +5347,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24304",
 "state": "ID",
@@ -5260,6 +5372,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8328",
 "state": "IL",
@@ -5315,6 +5428,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8548",
 "state": "IL",
@@ -5390,6 +5504,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8550",
 "state": "IL",
@@ -5419,6 +5534,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8551",
 "state": "IL",
@@ -5448,6 +5564,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8552",
 "state": "IL",
@@ -5477,6 +5594,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8553",
 "state": "IL",
@@ -5506,6 +5624,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8554",
 "state": "IL",
@@ -5535,6 +5654,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8567",
 "state": "IL",
@@ -5564,6 +5684,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8568",
 "state": "IL",
@@ -5593,6 +5714,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8569",
 "state": "IL",
@@ -5622,6 +5744,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8570",
 "state": "IL",
@@ -5651,6 +5774,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24305",
 "state": "IL",
@@ -5675,6 +5799,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24316",
 "state": "IL",
@@ -5706,6 +5831,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8335",
 "state": "IN",
@@ -6011,6 +6137,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8337",
 "state": "IN",
@@ -6040,6 +6167,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8338",
 "state": "IN",
@@ -6069,6 +6197,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8339",
 "state": "IN",
@@ -6098,6 +6227,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8340",
 "state": "IN",
@@ -6127,6 +6257,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8341",
 "state": "IN",
@@ -6156,6 +6287,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "19720",
 "state": "IN",
@@ -6185,6 +6317,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24306",
 "state": "IN",
@@ -6209,6 +6342,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24307",
 "state": "IN",
@@ -6233,6 +6367,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "25478",
 "state": "IN",
@@ -6525,6 +6660,7 @@
 ]
 
   },
+	        	
   {
 "uid": "31885",
 "state": "IN",
@@ -6549,6 +6685,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8342",
 "state": "IA",
@@ -6641,6 +6778,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8347",
 "state": "IA",
@@ -6665,6 +6803,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8414",
 "state": "IA",
@@ -6704,6 +6843,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8415",
 "state": "IA",
@@ -6743,6 +6883,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8416",
 "state": "IA",
@@ -6782,6 +6923,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8422",
 "state": "IA",
@@ -6821,6 +6963,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8423",
 "state": "IA",
@@ -6860,6 +7003,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8425",
 "state": "IA",
@@ -6899,6 +7043,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8426",
 "state": "IA",
@@ -6938,6 +7083,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8706",
 "state": "IA",
@@ -7018,6 +7164,7 @@
 ]
 
   },
+	        	
   {
 "uid": "15140",
 "state": "IA",
@@ -7185,6 +7332,7 @@
 ]
 
   },
+	        	
   {
 "uid": "15143",
 "state": "IA",
@@ -7432,6 +7580,7 @@
 ]
 
   },
+	        	
   {
 "uid": "24308",
 "state": "IA",
@@ -7456,6 +7605,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "36669",
 "state": "IA",
@@ -7490,6 +7640,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "38832",
 "state": "IA",
@@ -7514,6 +7665,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8427",
 "state": "KS",
@@ -7661,6 +7813,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8429",
 "state": "KS",
@@ -7690,6 +7843,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8431",
 "state": "KS",
@@ -7719,6 +7873,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8433",
 "state": "KS",
@@ -7748,6 +7903,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8435",
 "state": "KS",
@@ -7777,6 +7933,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8436",
 "state": "KS",
@@ -7806,6 +7963,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8438",
 "state": "KS",
@@ -7835,6 +7993,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8621",
 "state": "KS",
@@ -7864,6 +8023,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8440",
 "state": "KY",
@@ -7909,6 +8069,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8443",
 "state": "KY",
@@ -7938,6 +8099,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8446",
 "state": "KY",
@@ -7967,6 +8129,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8448",
 "state": "KY",
@@ -7996,6 +8159,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8451",
 "state": "KY",
@@ -8025,6 +8189,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8452",
 "state": "KY",
@@ -8054,6 +8219,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8455",
 "state": "KY",
@@ -8083,6 +8249,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "19522",
 "state": "KY",
@@ -8112,6 +8279,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24309",
 "state": "KY",
@@ -8136,6 +8304,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24310",
 "state": "KY",
@@ -8160,6 +8329,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "39258",
 "state": "KY",
@@ -8191,6 +8361,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8456",
 "state": "LA",
@@ -8256,6 +8427,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8459",
 "state": "LA",
@@ -8406,6 +8578,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8467",
 "state": "LA",
@@ -8435,6 +8608,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8468",
 "state": "LA",
@@ -8464,6 +8638,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8470",
 "state": "LA",
@@ -8493,6 +8668,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8476",
 "state": "LA",
@@ -8522,6 +8698,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8477",
 "state": "LA",
@@ -8551,6 +8728,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8478",
 "state": "LA",
@@ -8580,6 +8758,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8479",
 "state": "LA",
@@ -8609,6 +8788,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24334",
 "state": "LA",
@@ -8633,6 +8813,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "26214",
 "state": "LA",
@@ -8657,6 +8838,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8480",
 "state": "ME",
@@ -8702,6 +8884,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8481",
 "state": "ME",
@@ -8814,6 +8997,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8482",
 "state": "ME",
@@ -8843,6 +9027,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8483",
 "state": "ME",
@@ -8872,6 +9057,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8484",
 "state": "ME",
@@ -8901,6 +9087,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8485",
 "state": "ME",
@@ -8930,6 +9117,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8487",
 "state": "ME",
@@ -8959,6 +9147,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "15975",
 "state": "ME",
@@ -8988,6 +9177,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "23935",
 "state": "ME",
@@ -9017,6 +9207,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24335",
 "state": "ME",
@@ -9041,6 +9232,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8488",
 "state": "MD",
@@ -9158,6 +9350,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8490",
 "state": "MD",
@@ -9187,6 +9380,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8492",
 "state": "MD",
@@ -9216,6 +9410,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8493",
 "state": "MD",
@@ -9245,6 +9440,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8495",
 "state": "MD",
@@ -9274,6 +9470,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8496",
 "state": "MD",
@@ -9303,6 +9500,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8498",
 "state": "MD",
@@ -9332,6 +9530,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8500",
 "state": "MD",
@@ -9361,6 +9560,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8620",
 "state": "MD",
@@ -9390,6 +9590,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24336",
 "state": "MD",
@@ -9414,6 +9615,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24337",
 "state": "MD",
@@ -9438,6 +9640,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24338",
 "state": "MD",
@@ -9462,6 +9665,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "28483",
 "state": "MD",
@@ -9486,6 +9690,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "28865",
 "state": "MD",
@@ -9515,6 +9720,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8502",
 "state": "MA",
@@ -9802,6 +10008,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8503",
 "state": "MA",
@@ -9831,6 +10038,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8505",
 "state": "MA",
@@ -9860,6 +10068,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8506",
 "state": "MA",
@@ -9889,6 +10098,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8508",
 "state": "MA",
@@ -9918,6 +10128,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8510",
 "state": "MA",
@@ -9947,6 +10158,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8511",
 "state": "MA",
@@ -9976,6 +10188,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8513",
 "state": "MA",
@@ -10005,6 +10218,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8515",
 "state": "MA",
@@ -10034,6 +10248,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8720",
 "state": "MA",
@@ -10063,6 +10278,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8721",
 "state": "MA",
@@ -10092,6 +10308,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8517",
 "state": "MI",
@@ -10302,6 +10519,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8519",
 "state": "MI",
@@ -10382,6 +10600,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8522",
 "state": "MI",
@@ -10411,6 +10630,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8523",
 "state": "MI",
@@ -10440,6 +10660,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8524",
 "state": "MI",
@@ -10469,6 +10690,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8525",
 "state": "MI",
@@ -10498,6 +10720,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24339",
 "state": "MI",
@@ -10522,6 +10745,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24340",
 "state": "MI",
@@ -10551,6 +10775,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24341",
 "state": "MI",
@@ -10575,6 +10800,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24342",
 "state": "MI",
@@ -10599,6 +10825,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24343",
 "state": "MI",
@@ -10623,6 +10850,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24344",
 "state": "MI",
@@ -10647,6 +10875,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "30490",
 "state": "MI",
@@ -10671,6 +10900,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "30491",
 "state": "MI",
@@ -10700,6 +10930,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "36613",
 "state": "MI",
@@ -10775,6 +11006,7 @@
 ]
 
   },
+	        	
   {
 "uid": "38670",
 "state": "MI",
@@ -10806,6 +11038,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8527",
 "state": "MN",
@@ -10946,6 +11179,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8555",
 "state": "MN",
@@ -11018,6 +11252,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8558",
 "state": "MN",
@@ -11047,6 +11282,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8559",
 "state": "MN",
@@ -11076,6 +11312,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8560",
 "state": "MN",
@@ -11105,6 +11342,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8562",
 "state": "MN",
@@ -11190,6 +11428,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8711",
 "state": "MN",
@@ -11219,6 +11458,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "21852",
 "state": "MN",
@@ -11248,6 +11488,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24345",
 "state": "MN",
@@ -11272,6 +11513,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24346",
 "state": "MN",
@@ -11296,6 +11538,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24347",
 "state": "MN",
@@ -11320,6 +11563,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "26285",
 "state": "MN",
@@ -11344,6 +11588,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8563",
 "state": "MS",
@@ -11454,6 +11699,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8601",
 "state": "MS",
@@ -11614,6 +11860,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8603",
 "state": "MS",
@@ -11643,6 +11890,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8604",
 "state": "MS",
@@ -11672,6 +11920,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8605",
 "state": "MS",
@@ -11701,6 +11950,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8606",
 "state": "MS",
@@ -11730,6 +11980,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8607",
 "state": "MS",
@@ -11759,6 +12010,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "19703",
 "state": "MS",
@@ -11788,6 +12040,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "33191",
 "state": "MS",
@@ -11812,6 +12065,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8608",
 "state": "MO",
@@ -11877,6 +12131,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8609",
 "state": "MO",
@@ -12037,6 +12292,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8611",
 "state": "MO",
@@ -12066,6 +12322,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8612",
 "state": "MO",
@@ -12095,6 +12352,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8613",
 "state": "MO",
@@ -12124,6 +12382,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8614",
 "state": "MO",
@@ -12153,6 +12412,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8615",
 "state": "MO",
@@ -12182,6 +12442,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8616",
 "state": "MO",
@@ -12211,6 +12472,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8617",
 "state": "MO",
@@ -12240,6 +12502,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8618",
 "state": "MO",
@@ -12269,6 +12532,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8619",
 "state": "MO",
@@ -12298,6 +12562,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8712",
 "state": "MO",
@@ -12327,6 +12592,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "22638",
 "state": "MO",
@@ -12356,6 +12622,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24348",
 "state": "MO",
@@ -12380,6 +12647,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "37342",
 "state": "MO",
@@ -12416,6 +12684,7 @@
 ]
 
   },
+	    	
   {
 "uid": "7989",
 "state": "MT",
@@ -12639,6 +12908,7 @@
 ]
 
   },
+	        	
   {
 "uid": "7991",
 "state": "MT",
@@ -12668,6 +12938,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "7993",
 "state": "MT",
@@ -12697,6 +12968,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "7994",
 "state": "MT",
@@ -12726,6 +12998,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "7995",
 "state": "MT",
@@ -12755,6 +13028,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "7996",
 "state": "MT",
@@ -12784,6 +13058,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "7997",
 "state": "MT",
@@ -12813,6 +13088,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8047",
 "state": "MT",
@@ -12893,6 +13169,7 @@
 ]
 
   },
+	        	
   {
 "uid": "15956",
 "state": "MT",
@@ -12922,6 +13199,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "19722",
 "state": "MT",
@@ -12951,6 +13229,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24349",
 "state": "MT",
@@ -12975,6 +13254,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24350",
 "state": "MT",
@@ -12999,6 +13279,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "35208",
 "state": "MT",
@@ -13049,6 +13330,7 @@
 ]
 
   },
+	        	
   {
 "uid": "36246",
 "state": "MT",
@@ -13073,6 +13355,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "7999",
 "state": "NE",
@@ -13102,6 +13385,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8000",
 "state": "NE",
@@ -13131,6 +13415,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8001",
 "state": "NE",
@@ -13160,6 +13445,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8002",
 "state": "NE",
@@ -13189,6 +13475,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8003",
 "state": "NE",
@@ -13218,6 +13505,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8004",
 "state": "NE",
@@ -13247,6 +13535,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8005",
 "state": "NE",
@@ -13276,6 +13565,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24351",
 "state": "NE",
@@ -13300,6 +13590,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8006",
 "state": "NV",
@@ -13380,6 +13671,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8007",
 "state": "NV",
@@ -13409,6 +13701,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8008",
 "state": "NV",
@@ -13438,6 +13731,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8009",
 "state": "NV",
@@ -13467,6 +13761,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8010",
 "state": "NV",
@@ -13496,6 +13791,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "35275",
 "state": "NV",
@@ -13527,6 +13823,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8011",
 "state": "NH",
@@ -13556,6 +13853,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8012",
 "state": "NH",
@@ -13585,6 +13883,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8014",
 "state": "NH",
@@ -13614,6 +13913,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8722",
 "state": "NH",
@@ -13643,6 +13943,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24734",
 "state": "NH",
@@ -13713,6 +14014,7 @@
 ]
 
   },
+	        	
   {
 "uid": "29927",
 "state": "NH",
@@ -13795,6 +14097,7 @@
 ]
 
   },
+	        	
   {
 "uid": "35353",
 "state": "NH",
@@ -13819,6 +14122,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8015",
 "state": "NJ",
@@ -13848,6 +14152,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8017",
 "state": "NJ",
@@ -14033,6 +14338,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8018",
 "state": "NJ",
@@ -14062,6 +14368,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8022",
 "state": "NJ",
@@ -14091,6 +14398,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8023",
 "state": "NJ",
@@ -14120,6 +14428,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8024",
 "state": "NJ",
@@ -14149,6 +14458,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "15617",
 "state": "NJ",
@@ -14178,6 +14488,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8025",
 "state": "NM",
@@ -14213,6 +14524,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8028",
 "state": "NM",
@@ -14242,6 +14554,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8029",
 "state": "NM",
@@ -14332,6 +14645,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8030",
 "state": "NM",
@@ -14361,6 +14675,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8033",
 "state": "NM",
@@ -14390,6 +14705,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8034",
 "state": "NM",
@@ -14419,6 +14735,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8035",
 "state": "NM",
@@ -14448,6 +14765,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8036",
 "state": "NM",
@@ -14477,6 +14795,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8037",
 "state": "NM",
@@ -14506,6 +14825,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8050",
 "state": "NY",
@@ -14651,6 +14971,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8053",
 "state": "NY",
@@ -14685,6 +15006,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8059",
 "state": "NY",
@@ -15044,6 +15366,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8095",
 "state": "NY",
@@ -15073,6 +15396,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8098",
 "state": "NY",
@@ -15102,6 +15426,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8102",
 "state": "NY",
@@ -15131,6 +15456,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8105",
 "state": "NY",
@@ -15160,6 +15486,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8214",
 "state": "NY",
@@ -15189,6 +15516,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8216",
 "state": "NY",
@@ -15218,6 +15546,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8217",
 "state": "NY",
@@ -15247,6 +15576,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8218",
 "state": "NY",
@@ -15276,6 +15606,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8219",
 "state": "NY",
@@ -15305,6 +15636,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8221",
 "state": "NY",
@@ -15334,6 +15666,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8223",
 "state": "NY",
@@ -15363,6 +15696,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8224",
 "state": "NC",
@@ -15435,6 +15769,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8227",
 "state": "NC",
@@ -15464,6 +15799,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8228",
 "state": "NC",
@@ -15493,6 +15829,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8230",
 "state": "NC",
@@ -15522,6 +15859,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8232",
 "state": "NC",
@@ -15551,6 +15889,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8233",
 "state": "NC",
@@ -15580,6 +15919,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "15912",
 "state": "NC",
@@ -15609,6 +15949,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24353",
 "state": "NC",
@@ -15633,6 +15974,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "38522",
 "state": "NC",
@@ -15664,6 +16006,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8234",
 "state": "ND",
@@ -15693,6 +16036,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8235",
 "state": "ND",
@@ -15722,6 +16066,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8236",
 "state": "ND",
@@ -15751,6 +16096,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8237",
 "state": "ND",
@@ -15780,6 +16126,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8238",
 "state": "ND",
@@ -15809,6 +16156,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8239",
 "state": "ND",
@@ -15838,6 +16186,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8240",
 "state": "ND",
@@ -15867,6 +16216,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24355",
 "state": "ND",
@@ -15891,6 +16241,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "36541",
 "state": "ND",
@@ -15920,6 +16271,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8241",
 "state": "OH",
@@ -15965,6 +16317,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8242",
 "state": "OH",
@@ -15994,6 +16347,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8243",
 "state": "OH",
@@ -16023,6 +16377,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8245",
 "state": "OH",
@@ -16052,6 +16407,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8247",
 "state": "OH",
@@ -16081,6 +16437,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8249",
 "state": "OH",
@@ -16110,6 +16467,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8251",
 "state": "OH",
@@ -16139,6 +16497,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8253",
 "state": "OH",
@@ -16168,6 +16527,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8255",
 "state": "OH",
@@ -16197,6 +16557,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "19546",
 "state": "OH",
@@ -16226,6 +16587,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "20591",
 "state": "OH",
@@ -16255,6 +16617,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24357",
 "state": "OH",
@@ -16279,6 +16642,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24359",
 "state": "OH",
@@ -16303,6 +16667,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "38666",
 "state": "OH",
@@ -16337,6 +16702,7 @@
 ]
 
   },
+	        	
   {
 "uid": "38833",
 "state": "OH",
@@ -16361,6 +16727,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8258",
 "state": "OK",
@@ -16544,6 +16911,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8260",
 "state": "OK",
@@ -16573,6 +16941,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8263",
 "state": "OK",
@@ -16602,6 +16971,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8264",
 "state": "OK",
@@ -16631,6 +17001,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8267",
 "state": "OK",
@@ -16660,6 +17031,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8274",
 "state": "OK",
@@ -16689,6 +17061,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8348",
 "state": "OK",
@@ -16718,6 +17091,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8349",
 "state": "OK",
@@ -16747,6 +17121,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8350",
 "state": "OK",
@@ -16782,6 +17157,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8352",
 "state": "OR",
@@ -16897,6 +17273,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8354",
 "state": "OR",
@@ -17096,6 +17473,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8355",
 "state": "OR",
@@ -17125,6 +17503,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8356",
 "state": "OR",
@@ -17154,6 +17533,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8357",
 "state": "OR",
@@ -17183,6 +17563,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8358",
 "state": "OR",
@@ -17212,6 +17593,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8359",
 "state": "OR",
@@ -17241,6 +17623,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "16163",
 "state": "OR",
@@ -17270,6 +17653,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24360",
 "state": "OR",
@@ -17294,6 +17678,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24361",
 "state": "OR",
@@ -17318,6 +17703,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "38834",
 "state": "OR",
@@ -17342,6 +17728,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8360",
 "state": "PA",
@@ -17422,6 +17809,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8361",
 "state": "PA",
@@ -17451,6 +17839,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8363",
 "state": "PA",
@@ -17480,6 +17869,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8364",
 "state": "PA",
@@ -17509,6 +17899,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8365",
 "state": "PA",
@@ -17538,6 +17929,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8366",
 "state": "PA",
@@ -17567,6 +17959,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8367",
 "state": "PA",
@@ -17596,6 +17989,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8368",
 "state": "PA",
@@ -17625,6 +18019,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8369",
 "state": "PA",
@@ -17654,6 +18049,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8370",
 "state": "PA",
@@ -17683,6 +18079,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8371",
 "state": "PA",
@@ -17712,6 +18109,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "15112",
 "state": "PA",
@@ -17752,6 +18150,7 @@
 ]
 
   },
+	        	
   {
 "uid": "21522",
 "state": "PA",
@@ -17802,6 +18201,7 @@
 ]
 
   },
+	        	
   {
 "uid": "24363",
 "state": "PA",
@@ -17826,6 +18226,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "9214",
 "state": "RI",
@@ -17924,6 +18325,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8374",
 "state": "SC",
@@ -17953,6 +18355,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8375",
 "state": "SC",
@@ -17982,6 +18385,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8376",
 "state": "SC",
@@ -18011,6 +18415,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8377",
 "state": "SC",
@@ -18040,6 +18445,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8378",
 "state": "SC",
@@ -18069,6 +18475,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8379",
 "state": "SC",
@@ -18098,6 +18505,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8380",
 "state": "SC",
@@ -18127,6 +18535,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8381",
 "state": "SC",
@@ -18156,6 +18565,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "19718",
 "state": "SC",
@@ -18185,6 +18595,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "36248",
 "state": "SC",
@@ -18209,6 +18620,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8383",
 "state": "SD",
@@ -18238,6 +18650,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8384",
 "state": "SD",
@@ -18267,6 +18680,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8385",
 "state": "SD",
@@ -18296,6 +18710,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8386",
 "state": "SD",
@@ -18325,6 +18740,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8387",
 "state": "TN",
@@ -18722,6 +19138,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8388",
 "state": "TN",
@@ -18751,6 +19168,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8389",
 "state": "TN",
@@ -18780,6 +19198,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8390",
 "state": "TN",
@@ -18809,6 +19228,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8392",
 "state": "TX",
@@ -18859,6 +19279,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8393",
 "state": "TX",
@@ -19134,6 +19555,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8395",
 "state": "TX",
@@ -19163,6 +19585,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8396",
 "state": "TX",
@@ -19192,6 +19615,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8397",
 "state": "TX",
@@ -19221,6 +19645,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8398",
 "state": "TX",
@@ -19250,6 +19675,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8399",
 "state": "TX",
@@ -19279,6 +19705,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8400",
 "state": "TX",
@@ -19303,6 +19730,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8401",
 "state": "TX",
@@ -19327,6 +19755,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8402",
 "state": "TX",
@@ -19356,6 +19785,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8403",
 "state": "TX",
@@ -19385,6 +19815,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "21453",
 "state": "TX",
@@ -19409,6 +19840,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "21455",
 "state": "TX",
@@ -19438,6 +19870,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24364",
 "state": "TX",
@@ -19462,6 +19895,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24366",
 "state": "TX",
@@ -19486,6 +19920,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "27594",
 "state": "TX",
@@ -19510,6 +19945,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "33189",
 "state": "TX",
@@ -19534,6 +19970,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "38835",
 "state": "TX",
@@ -19558,6 +19995,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8404",
 "state": "UT",
@@ -19690,6 +20128,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8407",
 "state": "UT",
@@ -19719,6 +20158,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8472",
 "state": "UT",
@@ -19748,6 +20188,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8473",
 "state": "UT",
@@ -19777,6 +20218,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8474",
 "state": "UT",
@@ -19806,6 +20248,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8475",
 "state": "UT",
@@ -19835,6 +20278,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8639",
 "state": "UT",
@@ -19864,6 +20308,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "15987",
 "state": "UT",
@@ -19893,6 +20338,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24367",
 "state": "UT",
@@ -19917,6 +20363,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24368",
 "state": "UT",
@@ -19941,6 +20388,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24370",
 "state": "UT",
@@ -19965,6 +20413,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "35491",
 "state": "UT",
@@ -19994,6 +20443,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8641",
 "state": "VT",
@@ -20023,6 +20473,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8644",
 "state": "VT",
@@ -20165,6 +20616,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8633",
 "state": "VA",
@@ -20194,6 +20646,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8634",
 "state": "VA",
@@ -20223,6 +20676,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8635",
 "state": "VA",
@@ -20252,6 +20706,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8636",
 "state": "VA",
@@ -20281,6 +20736,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8637",
 "state": "VA",
@@ -20310,6 +20766,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8638",
 "state": "VA",
@@ -20339,6 +20796,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8648",
 "state": "VA",
@@ -20424,6 +20882,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8649",
 "state": "VA",
@@ -20453,6 +20912,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "14968",
 "state": "VA",
@@ -20503,6 +20963,7 @@
 ]
 
   },
+	        	
   {
 "uid": "19697",
 "state": "VA",
@@ -20532,6 +20993,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24371",
 "state": "VA",
@@ -20556,6 +21018,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "29032",
 "state": "VA",
@@ -20673,6 +21136,7 @@
 ]
 
   },
+	        	
   {
 "uid": "36451",
 "state": "VA",
@@ -20704,6 +21168,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8622",
 "state": "WA",
@@ -20733,6 +21198,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8624",
 "state": "WA",
@@ -20762,6 +21228,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8625",
 "state": "WA",
@@ -20791,6 +21258,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8626",
 "state": "WA",
@@ -20820,6 +21288,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8627",
 "state": "WA",
@@ -20849,6 +21318,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8628",
 "state": "WA",
@@ -20878,6 +21348,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8629",
 "state": "WA",
@@ -20907,6 +21378,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8630",
 "state": "WA",
@@ -20936,6 +21408,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8631",
 "state": "WA",
@@ -20972,6 +21445,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8632",
 "state": "WA",
@@ -21112,6 +21586,7 @@
 ]
 
   },
+	        	
   {
 "uid": "24372",
 "state": "WA",
@@ -21136,6 +21611,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24374",
 "state": "WA",
@@ -21160,6 +21636,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "27065",
 "state": "WA",
@@ -21189,6 +21666,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "27595",
 "state": "WA",
@@ -21213,6 +21691,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "32483",
 "state": "WA",
@@ -21242,6 +21721,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "35120",
 "state": "WA",
@@ -21278,6 +21758,7 @@
 ]
 
   },
+	    	
   {
 "uid": "8652",
 "state": "WV",
@@ -21307,6 +21788,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8653",
 "state": "WV",
@@ -21336,6 +21818,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "15103",
 "state": "WV",
@@ -21381,6 +21864,7 @@
 ]
 
   },
+	        	
   {
 "uid": "19609",
 "state": "WV",
@@ -21410,6 +21894,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "24375",
 "state": "WV",
@@ -21434,6 +21919,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8655",
 "state": "WI",
@@ -21474,6 +21960,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8658",
 "state": "WI",
@@ -21566,6 +22053,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8659",
 "state": "WI",
@@ -21595,6 +22083,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8660",
 "state": "WI",
@@ -21624,6 +22113,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8661",
 "state": "WI",
@@ -21653,6 +22143,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8662",
 "state": "WI",
@@ -21682,6 +22173,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8663",
 "state": "WI",
@@ -21711,6 +22203,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8664",
 "state": "WI",
@@ -21740,6 +22233,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8665",
 "state": "WI",
@@ -21769,6 +22263,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8666",
 "state": "WI",
@@ -21798,6 +22293,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8667",
 "state": "WI",
@@ -21827,6 +22323,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8668",
 "state": "WI",
@@ -21856,6 +22353,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "20579",
 "state": "WI",
@@ -21906,6 +22404,7 @@
 ]
 
   },
+	        	
   {
 "uid": "24376",
 "state": "WI",
@@ -21930,6 +22429,7 @@
 "administrative_documents": ""	
 
   },
+	    	
   {
 "uid": "8669",
 "state": "WY",
@@ -22005,6 +22505,7 @@
 ]
 
   },
+	        	
   {
 "uid": "8670",
 "state": "WY",
@@ -22034,6 +22535,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8671",
 "state": "WY",
@@ -22063,6 +22565,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8672",
 "state": "WY",
@@ -22092,6 +22595,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8673",
 "state": "WY",
@@ -22121,6 +22625,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8675",
 "state": "WY",
@@ -22150,6 +22655,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "8676",
 "state": "WY",
@@ -22179,6 +22685,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "20630",
 "state": "WY",
@@ -22208,6 +22715,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "20631",
 "state": "WY",
@@ -22237,6 +22745,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "35354",
 "state": "WY",
@@ -22261,6 +22770,7 @@
 "administrative_documents": ""	
 
   },
+	        	
   {
 "uid": "36346",
 "state": "WY",
@@ -22292,4 +22802,13 @@
 ]
 
   }
-]
+],
+
+																																																			
+
+"usStatesFilterList": [{"state_full_name": "Alabama", "stateAbbreviation": "AL", "wanted": true},{"state_full_name": "Alaska", "stateAbbreviation": "AK", "wanted": true},{"state_full_name": "Arizona", "stateAbbreviation": "AZ", "wanted": true},{"state_full_name": "Arkansas", "stateAbbreviation": "AR", "wanted": true},{"state_full_name": "California", "stateAbbreviation": "CA", "wanted": true},{"state_full_name": "Colorado", "stateAbbreviation": "CO", "wanted": true},{"state_full_name": "Connecticut", "stateAbbreviation": "CT", "wanted": true},{"state_full_name": "Delaware", "stateAbbreviation": "DE", "wanted": true},{"state_full_name": "District of Columbia", "stateAbbreviation": "DC", "wanted": true},{"state_full_name": "Florida", "stateAbbreviation": "FL", "wanted": true},{"state_full_name": "Georgia", "stateAbbreviation": "GA", "wanted": true},{"state_full_name": "Hawaii", "stateAbbreviation": "HI", "wanted": true},{"state_full_name": "Idaho", "stateAbbreviation": "ID", "wanted": true},{"state_full_name": "Illinois", "stateAbbreviation": "IL", "wanted": true},{"state_full_name": "Indiana", "stateAbbreviation": "IN", "wanted": true},{"state_full_name": "Iowa", "stateAbbreviation": "IA", "wanted": true},{"state_full_name": "Kansas", "stateAbbreviation": "KS", "wanted": true},{"state_full_name": "Kentucky", "stateAbbreviation": "KY", "wanted": true},{"state_full_name": "Louisiana", "stateAbbreviation": "LA", "wanted": true},{"state_full_name": "Maine", "stateAbbreviation": "ME", "wanted": true},{"state_full_name": "Maryland", "stateAbbreviation": "MD", "wanted": true},{"state_full_name": "Massachusetts", "stateAbbreviation": "MA", "wanted": true},{"state_full_name": "Michigan", "stateAbbreviation": "MI", "wanted": true},{"state_full_name": "Minnesota", "stateAbbreviation": "MN", "wanted": true},{"state_full_name": "Mississippi", "stateAbbreviation": "MS", "wanted": true},{"state_full_name": "Missouri", "stateAbbreviation": "MO", "wanted": true},{"state_full_name": "Montana", "stateAbbreviation": "MT", "wanted": true},{"state_full_name": "Nebraska", "stateAbbreviation": "NE", "wanted": true},{"state_full_name": "Nevada", "stateAbbreviation": "NV", "wanted": true},{"state_full_name": "New Hampshire", "stateAbbreviation": "NH", "wanted": true},{"state_full_name": "New Jersey", "stateAbbreviation": "NJ", "wanted": true},{"state_full_name": "New Mexico", "stateAbbreviation": "NM", "wanted": true},{"state_full_name": "New York", "stateAbbreviation": "NY", "wanted": true},{"state_full_name": "North Carolina", "stateAbbreviation": "NC", "wanted": true},{"state_full_name": "North Dakota", "stateAbbreviation": "ND", "wanted": true},{"state_full_name": "Ohio", "stateAbbreviation": "OH", "wanted": true},{"state_full_name": "Oklahoma", "stateAbbreviation": "OK", "wanted": true},{"state_full_name": "Oregon", "stateAbbreviation": "OR", "wanted": true},{"state_full_name": "Pennsylvania", "stateAbbreviation": "PA", "wanted": true},{"state_full_name": "Rhode Island", "stateAbbreviation": "RI", "wanted": true},{"state_full_name": "South Carolina", "stateAbbreviation": "SC", "wanted": true},{"state_full_name": "South Dakota", "stateAbbreviation": "SD", "wanted": true},{"state_full_name": "Tennessee", "stateAbbreviation": "TN", "wanted": true},{"state_full_name": "Texas", "stateAbbreviation": "TX", "wanted": true},{"state_full_name": "Utah", "stateAbbreviation": "UT", "wanted": true},{"state_full_name": "Vermont", "stateAbbreviation": "VT", "wanted": true},{"state_full_name": "Virginia", "stateAbbreviation": "VA", "wanted": true},{"state_full_name": "Washington", "stateAbbreviation": "WA", "wanted": true},{"state_full_name": "West Virginia", "stateAbbreviation": "WV", "wanted": true},{"state_full_name": "Wisconsin", "stateAbbreviation": "WI", "wanted": true},{"state_full_name": "Wyoming", "stateAbbreviation": "WY", "wanted": true}],
+
+"authorityFilterList": [{"Name": "1115", "wanted": true},{"Name": "1915 (b)", "wanted": true},{"Name": "1915 (b1)", "wanted": true},{"Name": "1915 (b2)", "wanted": true},{"Name": "1915 (b3)", "wanted": true},{"Name": "1915 (b4)", "wanted": true},{"Name": "1915 (c)", "wanted": true}],
+
+"statusFilterList": [{"Name": "Approved", "wanted": true},{"Name": "Pending", "wanted": true},{"Name": "Disapproved", "wanted": true},{"Name": "Expired", "wanted": true},{"Name": "Terminated", "wanted": true},{"Name": "Withdrawn", "wanted": true}]
+}

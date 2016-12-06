@@ -2,10 +2,97 @@
   html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strong, sub, sup, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button { margin: 0px; padding: 0px; border: 0px none; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline;  }
   body {font-size: 13.6px; color: #333333;}
  /*AddThis Start*/
-  .addthis_sharing_toolbox {
-    float: right !important;
-}
+  .addthis_sharing_toolbox {float: right !important;}
   /*AddThis END*/
+  
+  /*Twitter Widget Styles Start*/
+ .tweeter-heading {color: #046791!important; text-decoration: none!important;font-family: "Times New Roman",serif;}
+ ol.timeline-TweetList {border-bottom: solid 1px #76bab2!Important;}
+ .see-more-tweets-container > a {color: #046791!important; float: right; font-style: italic; text-decoration: none;}
+ .see-more-tweets-container {border-top: 1px solid #76bab2; display: block; padding-top: 0.5rem;}
+ .popularPages .follow-us-button {position: absolute; top: 27px; right: 0;background:#fff; border: solid 1px #1DA1F2; padding:.2rem .25rem .2rem 1.5rem; color: #1DA1F2;
+								 text-decoration: none; border-radius: 0.3rem; font-weight: bold; font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+								 font-size: 14.4px; margin-right: 2%; /*background-image: url("../images/icons/twitter-logo-sprite.png"); background-position: 0 0; background-repeat: no-repeat;*/}
+ .popularPages .follow-us-button:hover, .popularPages .follow-us-button:active, .popularPages .follow-us-button:focus {text-decoration: none; color: #fff; border-color: #1DA1F2; background: #1DA1F2;}
+ .twitter-bird-icon  { background-image: url("../images/icons/twitter-logo-sprite.png"); background-position: 0 0; background-repeat: no-repeat; height: 20px; left: 5px; padding-left: 1.5rem;
+					 position: absolute; top: 6px;}	
+
+ .follow-us-button:active > .twitter-bird-icon, .follow-us-button:hover >.twitter-bird-icon, .follow-us-button:focus >.twitter-bird-icon {background-image: url("../images/icons/twitter-logo-sprite.png"); background-position: -50px 0; background-repeat: no-repeat; height: 20px; left: 5px; padding-left: 1.5rem;
+																																		position: absolute; top: 6px;}					 
+  /*Twitter Widget END*/
+  
+  /*Back to Top Start*/
+  a.back-to-top {padding: .8rem 1.1rem; color: #fff!important; position: fixed; z-index: 999; right: 20px; bottom: 20px; background: #17415f; display: none; border-radius: 0.3rem;}
+  a.back-to-top, a.back-to-top:hover, a.back-to-top:active, a.back-to-top:focus {text-decoration: none}
+  /*Back to Top END*/ 
+  
+  /*FAQ styles Start*/
+   .ng-scope > li {list-style-type: none; margin:0; border-top: solid 1px #666;}
+   .ng-scope:first-child > li {border-top: none;}
+   .usa-accordion-button .ui-icon-triangle-1-e, .usa-accordion-button .ui-icon-triangle-1-s  {background-position: 0 0;}
+   .usa-accordion-button .ui-icon-triangle-1-e {height: 30px; width: 30px; background-image: url("/resources/images/icons/faq-plus-icon.png") !important;}
+   .usa-accordion-button .ui-icon-triangle-1-s {height: 30px; width: 30px; background-image: url("/resources/images/icons/faq-minus-icon.png") !important;}
+   .ui-accordion-content.ui-helper-reset.ui-widget-content {border: none!important;}
+   .usa-accordion-button {margin:0!important; background: #fff!important; border:none!important;}
+   .usa-accordion-button.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-top {border-top-right-radius: 0 !important; border-top-left-radius: 0!important;}
+   .usa-accordion-button.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-top:hover, .usa-accordion-button.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-top:focus, .usa-accordion-button.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-top:hover:active {background: #f7f7f7!important;}
+   .ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {border-top-left-radius: 0!important; border-top-right-radius: 0!important;}
+      ul.toggle-panels .ui-widget-content {border:none!important;}
+   .usa-accordion-button.ui-accordion-header.ui-helper-reset.ui-corner-top.ui-accordion-header-active.ui-state-active, .usa-accordion-button.ui-accordion-header.ui-helper-reset.ui-corner-top.ui-state-default{margin-bottom: 2px !important;}
+   div#toggle-panels div.ui-widget-content {border:none!important;}
+   .faq-question .rxbodyfield p {color: #17415f; display: inline-block; font-weight: bold;}
+   .faq-date.ng-binding {display: inline-block; font-size: 95%; font-weight: normal;}
+   .rxbodyfield, .faq-question.ng-binding {display:inline-block;}
+   ul#toggle-panels .ui-accordion-content.ui-helper-reset.ui-widget-content {padding:3px 3px 10px;}
+   .faq-answer.ng-binding {margin-bottom: 0;}
+   .faq-question.ng-binding, .rxbodyfield, .rxbodyfield > p, .faq-date.ng-binding {margin-bottom: 0;}
+   .sideBar.ng-scope.entries-filters-sidebar aside {border: medium none !important;   padding: 5x 0 5px !important;}
+   .blog-sort.faq-blog-sort > label {display: inline-block; float: left; margin-right: 6px; margin-top: 13px;}
+   .sideBar.ng-scope.entries-filters-sidebar {margin: 2px 0 3% -3%!important; width: 24%!important;}
+   .filter-title {font-weight: bold; display:inline-block; margin-bottom: 1.5rem;}
+    md-checkbox.md-default-theme.md-checked, md-checkbox.md-checked .md-icon {background: #046791;}
+	div.md-label .ng-binding.ng-scope {font-weight: normal;}
+	.md-label span.ng-scope {font-weight: normal;}
+	md-checkbox {line-height: 140%!important;}
+	.scroll-box {height: 175px; width: 215px; overflow-y: auto; margin-bottom: 15px;}
+	.demo-select-all-checkboxes {padding-left: 21px!important;}
+	.sideBar.entries-filters-sidebar.ng-scope aside {margin-bottom: 0;}
+	.sideBar.entries-filters-sidebar.ng-scope button.reset-all-filters-button {margin-right: 6%;}
+	.sideBar.entries-filters-sidebar.ng-scope aside fieldset:last-child {border-bottom: 1px solid #a0a0a0;}
+	.faq-pagination {display: inline-block; float: left; margin-top: 1.35rem;}
+	.entries-number-filter {display: inline-block; float: right; margin-top: 2.45rem;}
+	div.gigantic.pagination.ng-scope .ng-scope > a {background: transparent none repeat scroll 0 0; border-color: -moz-use-text-color; border-style: none; border-width: medium; font-size: 0.85rem; height: auto; padding: 0 0.45rem; width: auto; line-height: 100%;}
+    .gigantic.pagination.ng-scope > span.ng-scope {padding: 0;}
+	.faq-page-number.ng-scope {border-right: 1px solid #666;}
+	.gigantic.pagination.ng-scope > span:nth-child(3)  {border-left: 1px solid #666!important;}
+	.fa.fa-backward, .fa.fa-forward{font-size: 0.65rem;}
+	.faq-page-first.ng-scope, .faq-page-last.ng-scope {font-size: 12.5px; line-height: 100%; margin-left: 0; padding: 0 !important; width: 0.75rem;}
+	.faq-page-first.ng-scope {display: inline-block; margin-right: 10px;}
+	.entries-number-filter {color: #046791; font-family: "Arial",Helvetica,sans-serif;}
+	.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse.ng-touched {color: #046791;}
+	.sideBar.entries-filters-sidebar.ng-scope button:focus, .sideBar.entries-filters-sidebar.ng-scope [type="button"]:focus, .sideBar.entries-filters-sidebar.ng-scope [type="submit"]:focus, .sideBar.entries-filters-sidebar.ng-scope [type="reset"]:focus, .sideBar.entries-filters-sidebar.ng-scope [type="image"]:focus {box-shadow: none!important;}
+   
+  .intro {border-bottom: solid 1px #17415f; margin-left: 3.25%; margin-bottom: 1rem;}
+  .usa-search-container.faq-search {position: relative; margin-bottom: 1rem;}
+  .usa-search-container.faq-search input {width: 640px; margin-top: 1%;}
+  div.usa-search-container.faq-search .usa-search button {background: #046791 none repeat scroll 0 0;}
+  .usa-accordion-button {background-color: #ffffff; border-radius: 0; color: #046791 !important; display: inline-block; padding: 1rem 3.5rem 1rem 0!important; text-align: left; width: 100%;}
+  ul.usa-accordion > li:last-child button {border: medium none;}
+  #toggle-panels > li {list-style-type: none; margin: 0;}
+  .faq-date {color: #666666; display: block;margin-top: 0.2rem;}
+  .ui-accordion-content.ui-helper-reset.ui-widget-content > p {margin-top: 0.25em;}
+  .ui-accordion .ui-accordion-header { cursor: pointer; position: relative; zoom: 1; }
+  .ui-accordion .ui-accordion-li-fix { display: inline; }
+  .ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+  .ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: .5em .5em .5em .7em; }
+  .ui-accordion .ui-accordion-header .ui-icon { position: absolute; right: .5em; top: 13px;}
+  .ui-accordion .ui-accordion-content { padding: 0; border-top: 0; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; zoom: 1; border-bottom: solid 1px #666666;}
+  .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border-bottom: 1px solid #666666/*{borderColorDefault}*/;  font-weight: normal/*{fwDefault}*/;}
+  .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {background: #eefafe/*{bgColorHover}*/}
+  .faq-sort .md-select-menu-container {top: 437!important;}
+  md-input-container {width: 178px!important;}
+  /*FAQ styles END*/
+  
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
   blockquote, q { quotes: none; }
   blockquote::before, blockquote::after, q::before, q::after { content: none; }
@@ -66,6 +153,7 @@
   .sideBar aside.contact h3 { padding-left: 0px; font-size: 13.2px; margin-bottom: 4px; }
   .sideBar aside.contact a { font-size: 13px; color: #666666; }
   .sideBar aside.contact p { font-size: 12px; color: #666666; font-style: italic; }
+  div.sidebar aside form#goToProfile select {width: 100%;}
   a:link , a{color: #046791;}
   a:hover, a:focus { text-decoration: underline; color: #17415F;}
   a:visited {color: #862074;}
@@ -185,16 +273,12 @@ fieldset.blog-filter-collection span.check-filters md-list.listdemoListControls 
 
 md-content{padding: 0!important;}
 
-.md-select-menu-container {
+/*.md-select-menu-container {
     position: absolute!important;
     top: 393px !important;
-}
+}*/
 
-md-select-menu {
-    left: 13px;
-    position: relative;
-    width: 180px;
-}
+md-select-menu {left: 14px; position: absolute; top: 43px;width:178px;}
   
   #orderProp {
     background-image: linear-gradient(45deg, transparent 50%, transparent 50%), linear-gradient(135deg, transparent 50%, transparent 50%), linear-gradient(to right, #066792, #066792)!important;
@@ -309,13 +393,7 @@ md-list {
 	font-size: 12px;
   } 
   
-  .blog-filter-date, .blog-filter-collection {
-	border-top: 1px solid #A0A0A0;
-    color: #000;
-    font-weight: bold;
-    padding: 5px 0 0 5px;
-	font-size: 12px;
-}
+  .blog-filter-date, .blog-filter-collection {border-top: 1px solid #A0A0A0; color: #000; font-weight: bold; padding: 0 0 0 5px; font-size: 12px; margin-bottom: 0;}
 
   
   .blog-filter-collection  button, .blog-filter-date button {
@@ -324,21 +402,23 @@ md-list {
   }
   
     .blog-filter-collection  button span.minus, .blog-filter-date button span.minus {
-    background: #fff url("../images/icons/collapse-icon.png") no-repeat scroll 0 0;
+    background: #fff url("../images/icons/faq-minus-icon.png") no-repeat scroll 0 0;
     border: medium none;
     float: right;
     height: 30px;
     margin-right: 0;
     width: 30px;
+	margin-top: -5px;
   }
   
   .blog-filter-collection  button span.plus, .blog-filter-date button span.plus {
-    background: #fff url("../images/icons/expand-icon.png") no-repeat scroll 0 0;
+    background: #fff url("../images/icons/faq-plus-icon.png") no-repeat scroll 0 0;
     border: medium none;
     float: right;
     height: 30px;
     margin-right: 0;
     width: 30px;
+	margin-top: -5px;
                 }
 
 	
@@ -400,7 +480,7 @@ label[for="fromDate"], label[for="thruDate"]{
     width: 105px;
 }
 
-span.from-date-group, span.to-date-group {display: block; overflow: hidden; margin-left: 4px;}
+span.from-date-group, span.to-date-group {display: block; overflow: hidden; margin-left: 4px; margin-bottom: 15px;}
 
 span.from-date-group {margin-bottom: 1em;}
 
@@ -425,6 +505,7 @@ span.from-date-group {margin-bottom: 1em;}
 .legend-and-button > button {
     float: right;
     position: relative;
+	padding-top: 5px; 
 }
 
   /*Blog Filters END*/
@@ -918,7 +999,6 @@ section.relatedLinks.new_and_notable a.usa-button.usa-button-primary, section.re
 	
 	.usa-search [type="search"], .usa-search .usa-search-input {
     border-bottom-right-radius: 0;
-    border-right: medium none;
     border-top-right-radius: 0;
     float: left;
     font-size: 14.4px;
@@ -973,7 +1053,7 @@ section.relatedLinks.new_and_notable a.usa-button.usa-button-primary, section.re
 		background: #046791;
 	}
 	
-	input, input[type="text"], input[type="email"], input[type="password"], input[type="url"], input[type="tel"], input[type="number"], input[type="search"], input[type="file"], input[type="date"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], textarea, select {
+	input, input[type="text"], input[type="email"], input[type="password"], input[type="url"], input[type="tel"], input[type="number"], input[type="search"], input[type="file"], input[type="date"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], textarea {
     border: 1px solid #333333;
 	}
 	
@@ -1106,18 +1186,20 @@ section.relatedLinks.new_and_notable a.usa-button.usa-button-primary, section.re
 		background: #eefafe;
 		border-left: solid 5px #eefafe!important;
 		}
+		
+	.forth-level-section-nav > a.self, .fifth-level-section-nav > a.self, .sixth-level-section-nav > a.self {
+		border-left: solid 5px #76bab2;
+	}
 	
 	.self  {
-	border-left: solid 5px #76bab2!important;
 	color: #333;
 	border-bottom:1px solid #046791
     }
 
-	.self:hover  {
+	.forth-level-section-nav > a.self:hover, .fifth-level-section-nav > a.self:hover, .sixth-level-section-nav > a.self:hover  {
 	color: #333;
-	border-bottom:1px solid #046791;
-	border-left: solid 5px #76bab2!important;
 	background: #eefafe;
+	border-left: solid 5px #76bab2!important;
     }
 	
 	.fifth-level-section-nav.selected a.self {
@@ -1274,7 +1356,7 @@ section.relatedLinks.new_and_notable a.usa-button.usa-button-primary, section.re
   .actionWrap_2columns .dottedBorder, .actionWrap_1column .dottedBorder { border-right: 0px none; }
   .actionWrap_1column .dottedBorder { border-bottom: 1px dotted #2e2e2e; }
   .actionWrap div p { padding-top: 3%; }
-  .envelope, .clipboard, .apply, .comment, .contact-state, .faq, .kid-coverage, .services , .iap, .bar, .bar-double, .bar-national, .bar-people, .ikn, .reversed-clipboard, .data, .building, .resource { padding: 0px 26px 54px 45px;}
+  .envelope, .clipboard, .apply, .comment, .contact-state, .faq, .kid-coverage, .services , .iap, .bar, .bar-double, .bar-national, .bar-people, .ikn, .reversed-clipboard, .data, .building, .resource { padding: 0px 26px 55px 45px;}
   .envelope { background: rgba(0, 0, 0, 0) url("../images/icons/call_to_action_sprites.png") no-repeat scroll 0 0}
   .clipboard { background: rgba(0, 0, 0, 0) url("../images/icons/call_to_action_sprites.png") no-repeat scroll -100px 0;}
   .apply {background: rgba(0, 0, 0, 0) url("../images/icons/call_to_action_sprites.png") no-repeat scroll -200px 0;}
@@ -1318,8 +1400,8 @@ section.relatedLinks.new_and_notable a.usa-button.usa-button-primary, section.re
   .actionWrap div a span:focus, .actionWrap div a span:hover { color: #046791; }
   .actionWrap div a span { display: block; float: right; clear: right; width: 64%; padding: 3% 0px 0px; color: #333333; font-family: Times New Roman, serif; }
   .actionWrap_1column div a span { width: 50%; margin-right: 22%; }
-  .relatedLinks h1, .featuredPar h1 { font-family: "Times New Roman",serif; font-size: 19px; color: #333333; border-bottom: 4px solid #17415f; }
-  .popularPages h1, .featuredPar h1 { line-height: 135%; margin-bottom: 5%; }
+  .relatedLinks h1, .featuredPar h1 { line-height: 200%; font-family: "Times New Roman",serif; font-size: 19px; color: #333333; border-bottom: 4px solid #17415f; }
+  .popularPages h1, .featuredPar h1 { line-height: 200%; margin-bottom: 5%; }
   .new_and_notable { width: 89%; margin: 0px auto; padding: 0px 2%; }
   .relatedLinks ul { margin: 2% 0px 0px; padding: 0px 0px 0 1%; }
   .relatedLinks ul > li { list-style-type: none; }
@@ -1329,7 +1411,7 @@ section.relatedLinks.new_and_notable a.usa-button.usa-button-primary, section.re
   .pdfDate, time { font-style: italic; }
   .relatedLinks a:focus, .relatedLinks a:hover { text-decoration: underline; color: #077572; }
   .sepLine { border: medium none; background-color: #17415f; color: #17415f; height: 1px; margin-top: 8%; }
-  .popularPages { width: 36%; margin: 2% 0px 2% 5.5%; padding: 21px 10px 10px; float: left; clear: left; }
+  .popularPages { width: 36%; margin: 2% 0px 2% 5.5%; padding: 21px 10px 10px; float: left; clear: left; position:relative; }
   .popularPages ul li, .byPopulation ul li { background-position: -3px -103px; }
   .featuredPar { width: 40%; margin: 2% 7% 5% 5.5%; padding: 20px 10px; float: right; clear: right; border: 1px solid #76bab2; }
   .beneficiaryPar { width: 30%; margin: 5% 5% 5% 0px; border-radius: 25px; box-shadow: 0px 0px 5px; border: 0px none; padding: 0px 15px 20px; }

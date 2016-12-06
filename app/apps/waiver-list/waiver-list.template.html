@@ -1,6 +1,6 @@
 <div id="mainContent" class="" role="main">
-    <h1>!-- TO DO: SHOULD THIS BE HARDCODED IN THIS TEMPLATE OR A VARIABLE GRABBING VALUE FROM JSON? --Demonstrations &amp Waivers</h1>
-    <p>!-- TO DO: SHOULD THIS BE HARD-CODED IN THIS TEMPLATE OR A VARIABLE GRABBING VALUE FROM JSON? -- Waivers are vehicles states can use to test new or existing ways to deliver and pay for health care services in Medicaid and the Children’s Health Insurance Program (CHIP). Learn more about waiver and demonstration authorities. In September 2014, the Centers for Medicare &#38; Medicaid Services initiated a national, cross-state evaluation of four types of Medicaid section 1115 demonstrations. See the evaluation design.</p>
+    <h1>Demonstrations &amp Waivers</h1>
+    <p>Waivers are vehicles states can use to test new or existing ways to deliver and pay for health care services in Medicaid and the Children’s Health Insurance Program (CHIP). Learn more about waiver and demonstration authorities. In September 2014, the Centers for Medicare &#38; Medicaid Services initiated a national, cross-state evaluation of four types of Medicaid section 1115 demonstrations. See the evaluation design.</p>
 
 	<div id="facet">
 <!-- TO DO: remove inline styles -->
@@ -9,8 +9,42 @@
 			<div class="facet-container"><!-- start: Refine Your Search -->
 				<h3><label for="keywords">Keywords: </label></h3>
 				<input data-ng-model="$ctrl.keywords" id="keywords" type="search">
-				<span class="small"><br/>(i.e. disabled, childless adults, etc.)</span>
+				<span class="small"><br/>(i.e. disabled, childless adults, etc.)</span><br><br>
 
+				<h3>State(s)</h3><!-- start: filter states -->
+					<div class="filter-box-background scroll-box">
+						<div>
+							<md-checkbox aria-label="All States" data-ng-click="$ctrl.toggleUsStatesAll()" data-md-indeterminate="$ctrl.isIndeterminateUsStates()" data-ng-checked="$ctrl.isCheckedUsStates()">
+							  All States
+							</md-checkbox>
+						</div>
+						<div class="demo-select-all-checkboxes" data-ng-repeat="usstate in $ctrl.waivers.usStatesFilterList | orderBy: usstate.state_full_name">		
+						  <md-checkbox data-ng-click="$ctrl.toggleUsStates(usstate.state_full_name, $ctrl.selectedUsStates)" data-ng-checked="$ctrl.existsUsStates(usstate.state_full_name, $ctrl.selectedUsStates)">{{usstate.state_full_name}}</md-checkbox>
+						</div>
+					</div><!--end: filter states-->
+
+				<h3>Waiver Authority</h3>
+				<p>Learn about <a href="http://www.medicaid.gov/Medicaid-CHIP-Program-Information/By-Topics/Waivers/Waivers.html">waiver authorities</a>.</p>
+
+				<div class="filter-box-background"><!-- start: filter waiver authority -->
+					<div>
+						<md-checkbox name="wafilter" aria-label="Select ALL waiver authorities" data-ng-click="$ctrl.toggleAuthoritiesAll();" data-md-indeterminate="$ctrl.isIndeterminateAuthorities();" data-ng-checked="$ctrl.isCheckedAuthorities();">
+						  Select ALL Authorities
+						</md-checkbox>
+					</div>
+					<div class="demo-select-all-checkboxes" data-ng-repeat="waAuth in $ctrl.authoritiesObj | orderBy: waAuth.Name"><md-checkbox name="wafilter" data-ng-click="$ctrl.toggleAuthorities(waAuth.Name, $ctrl.selectedAuthorities);" data-ng-checked="$ctrl.existsAuthorities(waAuth.Name, $ctrl.selectedAuthorities);" class="filterAuthority">{{waAuth.Name}}</md-checkbox>
+					</div>
+				</div><!-- end: filter waiver authority -->
+
+				<h3>Status</h3><!-- start: filter status -->
+				<div class="filter-box-background">
+					<div>
+						<md-checkbox name="statusfilter" aria-label="select All Status" data-ng-click="$ctrl.toggleAllStatus();" data-md-indeterminate="$ctrl.isIndeterminateStatus();" data-ng-checked="$ctrl.isCheckedStatus();" class="filterStatus">Select ALL - DOES NOTHING
+						</md-checkbox>
+					</div>
+					<div class="demo-select-all-checkboxes" data-ng-repeat="waStatus in $ctrl.statusObj | orderBy: waStatus.Name">	<md-checkbox name="statusfilter" data-ng-click="$ctrl.toggleStatus(waStatus.Name, $ctrl.selectedStatus);" data-ng-checked="$ctrl.existsStatus(waStatus.Name, $ctrl.selectedStatus);" class="filterStatus">{{waStatus.Name}}</md-checkbox>
+					</div>
+				</div><!-- end: filter status -->
 			</div>
 			<button type="button" data-ng-click="$ctrl.clearFilters()" class="usa-button usa-button-primary reset-all-filters-button">Reset Form</button>
 		</div><!-- end: Refine Your Search -->
@@ -28,10 +62,13 @@
 				</form>
 			</div><!-- end: Sort by -->
 			<div><!-- start: list content -->
-				<p><b>{{$ctrl.waivers.length}} waivers,</b> ordered according to <samp>{{$ctrl.sortProp}}</samp><span data-ng-show="$ctrl.keywords">, filtered by <samp>{{$ctrl.keywords}}</samp></span></p>
+				<p>
+					<b>{{$ctrl.waiversFiltered.length}} all waivers,</b> from {{$ctrl.waivers.entries.length}} all waivers, ordered according to <samp>{{$ctrl.sortProp}}</samp><span data-ng-show="$ctrl.keywords">, filtered by <samp>{{$ctrl.keywords}}</samp></span>
+				</p>
 
 				<ul id="waivers"><!-- TO DO: track by uid? -->
-					<li class="dl-results" data-ng-repeat="waiver in $ctrl.waivers | filter:$ctrl.keywords | orderBy:$ctrl.sortProp" data-ng-init="showMore=false">
+					<span class="dl-results" data-ng-repeat="waiver in $ctrl.waiversFiltered | filter: $ctrl.keywords | orderBy: $ctrl.sortProp" data-ng-init="showMore=false">
+					<li>
 						<table class="dl-results">
 							<tbody>
 								<tr>
@@ -180,7 +217,15 @@
 							<button class="showmore-btn" type="button" data-ng-click="showMore=!showMore">Show More</button>
 						</div>
 					</li>
-				</ul>
+					</span>
+				</ul> 
+			
+			<!-- <div class="faq-pagination">
+				<dir-pagination-controls boundary-links="true"  template-url="/apps/components/pagination/dirPagination.tpl.html"></dir-pagination-controls>
+			</div> -->
+			<!-- <div class="entries-number-filter">
+				Show <select name="records" id="records" data-ng-model="$ctrl.selectedItem" data-ng-options="opt as opt for opt in $ctrl.options"></select> entries
+			</div>  -->
 
 			</div><!-- end: list content -->
 		</div><!-- end: results-box -->

@@ -1,0 +1,23 @@
+<div class="gigantic pagination" ng-if="1 < pages.length || !autoHide">
+    <span ng-if="boundaryLinks" class="faq-page-first">
+        <a href="" ng-click="setCurrent(1)" ng-class="{ disabled : pagination.current == 1 }"><i class="fa fa-backward" aria-hidden="true"></i>
+		</a>
+
+    </span>
+    <span ng-if="directionLinks">
+        <a href="" ng-click="setCurrent(pagination.current - 1)" ng-class="previous{ disabled : pagination.current == 1 }">Previous</a>
+    </span>
+   <span class="faq-page-number" ng-repeat="pageNumber in pages track by tracker(pageNumber, $index)" ng-class="{ active : pagination.current == pageNumber, disabled : pageNumber == '...' }">
+        <a href="" ng-click="setCurrent(pageNumber)">{{ pageNumber }}</a>
+    </span>
+
+	<!-- <span>&nbsp; {{pagination.current}}</span> <span>&nbsp; of &nbsp;</span> <span id="max_pages">{{pagination.last}}</span> -->
+
+    <span ng-if="directionLinks">
+        <a href="" ng-click="setCurrent(pagination.current + 1)" ng-class="next{ disabled : pagination.current == pagination.last }">Next</a>
+    </span>
+    <span ng-if="boundaryLinks" class="faq-page-last">
+        <a href="" ng-click="setCurrent(pagination.last)" ng-class="{ disabled : pagination.current == pagination.last }"><i class="fa fa-forward" aria-hidden="true"></i>
+</a>
+    </span>
+</div>

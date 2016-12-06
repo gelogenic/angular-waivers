@@ -3,5 +3,7 @@
 /* Define the 'waiverApp' Module */
 
 angular.module('waiverApp', [
-	'waiverList'
+	'waiverList',
+	'angular.filter',
+	'ngMaterial'
 ]);
