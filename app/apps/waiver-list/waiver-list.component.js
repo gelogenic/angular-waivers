@@ -2,20 +2,23 @@
 
 /* Register `waiverList` component, along with its associated controller and template */
 angular.
-  module('waiverList', ['angular.filter','ngMaterial']).
+  module('waiverList', ['angular.filter','ngMaterial','angularUtils.directives.dirPagination']).
 	component('waiverList', {
 		// take a look at the $templateRequest and $templateCache services for more info on how Angular manages external templates. 
 		templateUrl: '/apps/waiver-list/waiver-list.template.html',
 		controller: function WaiverListCtrl($http) {
 			var self = this;
 			self.sortProp = 'status_order';
-			var waiversFullSet = [];//  used for reset when clearing all filters?
+			self.waiversFullSet = [];//  used for reset when clearing all filters?
 			self.waiversFiltered = [];// will hold full set of waiver entries minus any/all applied filters, not including keywords query
 			var selected = false;// tracks when given filter reduces set
+			self.usStatesObj = [];
 			var filterAfterUsStates = [];
 			self.selectedUsStates = [];
+			self.authoritiesObj = [];
 			var filterAfterAuthorities = [];
-			self.selectedAuthorities = [];
+			self.selectedAuthorities = []
+			self.statusObj = [];;
 			var filterAfterStatus = [];
 			self.selectedStatus = [];
 			
@@ -25,10 +28,11 @@ angular.
 				self.waiversFiltered = self.waivers.entries;// initialize the set (self.waivers.entries) used in page display
 				self.usStatesObj = self.waivers.usStatesFilterList;
 				self.authoritiesObj = self.waivers.authorityFilterList;// CONST
-				self.statusObj = self.waivers.statusFilterList;// CONST		
-			self.pageSize = 15;
+				self.statusObj = self.waivers.statusFilterList;// CONST
+			self.pageSize = 10;
+			self.pageSize = 10;
 			self.currentPage = 1;
-			//setItemsPerPage();
+			setItemsPerPage();
 				self.checkAllUsStates();
 				self.checkAllAuthorities();
 				self.checkAllStatus();
@@ -41,6 +45,26 @@ var setItemsPerPage = function() {
 	self.options.push("10");
 	self.selectedItem = self.options[2];
 }// end setItemsPerPage
+
+/* self.lowItemOnPage = function() {
+	//return parseInt(a) + parseInt(b);
+	var intCurrentPage = parseInt(self.currentPage);
+	var intPageSize = parseInt(self.pageSize);
+	return ((intCurrentPage * intPageSize) - intPageSize) + 1;
+}// end lowItemOnPage */
+
+/* self.highItemOnPage = function() {
+	//return parseInt(a) + parseInt(b);
+	var intCurrentPage = parseInt(self.currentPage);
+	var intPageSize = parseInt(self.pageSize);
+	var lastItemOnPage = intCurrentPage * intPageSize;
+	var maxPossibleItems = self.waiversFullSet.length;
+	// $ctrl.waiversFiltered|filter:$ctrl.keywords).length
+	if(lastItemOnPage > maxPossibleItems) {
+		lastItemOnPage = maxPossibleItems;
+	}
+	return lastItemOnPage;
+}// end highItemOnPage */
 
 			self.clearFilters = function clearFilters() {
 				self.keywords = '';
@@ -57,10 +81,13 @@ var setItemsPerPage = function() {
 - 'select all states' checkbox WORKING
 - 'select all Waiver Authorities' checkbox WORKING
 - 'select all status' checkbox WORKING
-- added pagination references to index.html, but not using data-dir-paginate in template
+- added pagination references to index.html
+- Invoked pagination in waiver-list.template.html
+  - using 'data-dir-paginate' in place of 'data-ng-repeat'
+  - using a combo of <dir-pagination-controls> and <select name="records" id="records"> both above display of records and below display of records
+- Updated the <div class="dataTables_info"> text
 
 Still to fix,
-- Invoke pagination in waiver-list.template.html using 'data-dir-paginate' in place of 'data-ng-repeat'
 - SHOULD Headline BE HARDCODED IN THIS TEMPLATE OR A VARIABLE GRABBING VALUE FROM JSON?
 - SHOULD the opening paragraphs BE HARD-CODED IN THIS TEMPLATE OR A VARIABLE GRABBING VALUE FROM JSON? 
 
