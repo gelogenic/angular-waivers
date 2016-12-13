@@ -1,8 +1,4 @@
-<div id="mainContent" class="" role="main">
-    <h1>Demonstrations &amp Waivers</h1>
-    <p>Waivers are vehicles states can use to test new or existing ways to deliver and pay for health care services in Medicaid and the Children’s Health Insurance Program (CHIP). Learn more about waiver and demonstration authorities. In September 2014, the Centers for Medicare &#38; Medicaid Services initiated a national, cross-state evaluation of four types of Medicaid section 1115 demonstrations. See the evaluation design.</p>
-
-	<div id="facet">
+<div id="facet">
 <!-- TO DO: remove inline styles -->
 		<div style="display:inline-block; zoom:1; *display:inline; letter-spacing:normal; word-spacing:normal; vertical-align:top; width:25% !important;">
 			<h2>Refine Your Search:</h2>
@@ -39,7 +35,8 @@
 				<h3>Status</h3><!-- start: filter status -->
 				<div class="filter-box-background">
 					<div>
-						<md-checkbox name="statusfilter" aria-label="select All Status" data-ng-click="$ctrl.toggleAllStatus();" data-md-indeterminate="$ctrl.isIndeterminateStatus();" data-ng-checked="$ctrl.isCheckedStatus();" class="filterStatus">Select ALL - DOES NOTHING
+						<md-checkbox name="statusfilter" aria-label="select All Status" data-ng-click="$ctrl.toggleAllStatus();" data-md-indeterminate="$ctrl.isIndeterminateStatus();" data-ng-checked="$ctrl.isCheckedStatus();" class="filterStatus">
+							Select ALL
 						</md-checkbox>
 					</div>
 					<div class="demo-select-all-checkboxes" data-ng-repeat="waStatus in $ctrl.statusObj | orderBy: waStatus.Name">	<md-checkbox name="statusfilter" data-ng-click="$ctrl.toggleStatus(waStatus.Name, $ctrl.selectedStatus);" data-ng-checked="$ctrl.existsStatus(waStatus.Name, $ctrl.selectedStatus);" class="filterStatus">{{waStatus.Name}}</md-checkbox>
@@ -62,12 +59,18 @@
 				</form>
 			</div><!-- end: Sort by -->
 			<div><!-- start: list content -->
-				<p>
-					<b>{{$ctrl.waiversFiltered.length}} all waivers,</b> from {{$ctrl.waivers.entries.length}} all waivers, ordered according to <samp>{{$ctrl.sortProp}}</samp><span data-ng-show="$ctrl.keywords">, filtered by <samp>{{$ctrl.keywords}}</samp></span>
-				</p>
-
+				<!-- div class="dataTables_info">Showing {{$ctrl.lowItemOnPage()}} to {{$ctrl.highItemOnPage()}} (filtered from {{$ctrl.waiversFullSet.length}} total entries)
+				</div -->
+				<div class="dataTables_info">Showing {{($ctrl.waiversFiltered|filter: $ctrl.keywords).length}} items (filtered from {{$ctrl.waiversFullSet.length}} total entries)
+				</div>
+			<div class="faq-pagination">
+				<dir-pagination-controls boundary-links="true"  template-url="/apps/components/pagination/dirPagination.tpl.html"></dir-pagination-controls>
+			</div>
+			<div class="entries-number-filter">
+				Show <select name="records" id="records" data-ng-model="$ctrl.selectedItem" data-ng-options="opt as opt for opt in $ctrl.options"></select> entries
+			</div> 
 				<ul id="waivers"><!-- TO DO: track by uid? -->
-					<span class="dl-results" data-ng-repeat="waiver in $ctrl.waiversFiltered | filter: $ctrl.keywords | orderBy: $ctrl.sortProp" data-ng-init="showMore=false">
+					<span class="dl-results" data-dir-paginate="waiver in $ctrl.waiversFiltered | filter: $ctrl.keywords | orderBy: $ctrl.sortProp | itemsPerPage: $ctrl.selectedItem" data-current-page="$ctrl.currentPage" data-ng-init="showMore=false">
 					<li>
 						<table class="dl-results">
 							<tbody>
@@ -220,15 +223,14 @@
 					</span>
 				</ul> 
 			
-			<!-- <div class="faq-pagination">
+			<div class="faq-pagination">
 				<dir-pagination-controls boundary-links="true"  template-url="/apps/components/pagination/dirPagination.tpl.html"></dir-pagination-controls>
-			</div> -->
-			<!-- <div class="entries-number-filter">
+			</div>
+			<div class="entries-number-filter">
 				Show <select name="records" id="records" data-ng-model="$ctrl.selectedItem" data-ng-options="opt as opt for opt in $ctrl.options"></select> entries
-			</div>  -->
+			</div> 
 
 			</div><!-- end: list content -->
 		</div><!-- end: results-box -->
 
 	</div><!-- end faceted -->
-</div><!-- #mainContent end -->
