@@ -1,6 +1,6 @@
 'use strict';
 
-/* Define the 'waiverApp' Module */
+/* Define the 'waiverApp' module */
 
 angular.module('waiverApp', [
 	'waiverList',
